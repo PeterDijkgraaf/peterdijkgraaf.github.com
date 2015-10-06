@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio and Blog Peter Dijkgraaf - Visual, Interaction Designer and coder from Holland</title>
+    <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems trough digital solutions. Mainly true interaction, visual design and front-end code.</description>
+    <link>http://www.peterdijkgraaf.com/</link>
+    <atom:link href="http://www.peterdijkgraaf.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Oct 2015 15:53:37 +0200</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2015 15:53:37 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How I create an app next to a fulltime job</title>
+        <description>&lt;h4 id=&quot;added-cause-the-situation-changed-last-minute&quot;&gt;Added cause the situation changed last minute:&lt;/h4&gt;
+
+&lt;p&gt;Around four months ago I had an idea for an app. I saw room for the idea cause the competition was minimal and poorly executed. Two weeks ago an app launched which is doing exactly what I wanted to do. And they are doing an amazing job… I’m dropping this project and &lt;a href=&quot;https://medium.com/@PeterDijkgraaf/4a26ab89a8bb&quot;&gt;you can read more about it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-original-post&quot;&gt;The original post:&lt;/h4&gt;
+
+&lt;p&gt;The main goal of this post is to inspire and help you create epic stuff. While I’m at it I’ll use ‘Qiv’ (Hmong for Lend) as an example. Qiv is an app that will keep track of all the stuff that you’ve lent to people. You can set up reminders for yourself or the person who has borrowed your belongings, so you always know where your stuff is! You can also share the item with the other person. A pretty simple idea which I’m crafting with a good friend who happens to be an iOS dev.&lt;/p&gt;
+
+&lt;p&gt;I thought it would be cool to show how I go through the process of creating an idea from scratch. I divided it into 9 steps. The first 4 steps are in chronological order but things start to blend together from step 5.&lt;/p&gt;
+
+&lt;h2 id=&quot;idea&quot;&gt;1. Idea&lt;/h2&gt;
+
+&lt;p&gt;This is where it starts obviously. But in general we’re never short on ideas so decide before you start if it’s worth the effort. Couple of question you need to ask yourself are: Will I use it? Will it solve a problem? Why should people use it? How big is my audience? Is it doing one thing very good?&lt;br /&gt;
+Also be sure to involve a developer from the start. It will give you a clear idea of the amount of work. I’ve stopped a side project called ‘&lt;a href=&quot;http://picturetheway.com/&quot;&gt;Picture the way&lt;/a&gt;’ because there was too much work in there development wise. It hurts to kill ideas for that reason but it’s good to stay realistic.&lt;br /&gt;
+&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2014/04/10/validate-product-ideas-with-quick-simple-experiments/&quot;&gt;Here is another good read&lt;/a&gt; about validating product ideas before you start.&lt;/p&gt;
+
+&lt;h2 id=&quot;write-down-functions&quot;&gt;2. Write down functions&lt;/h2&gt;
+
+&lt;p&gt;Start doing a brainstorm with all the potential function and features of your idea. Go crazy but keep in mind that your product needs to be simple and preferably focussed on one thing. Write everything down that pops in your head. Think about the features that you really want to have in a first version of the app and stick close to the core of your idea. Make sure that you ALWAYS focus on building the minimum viable products from the start, you can always add extra features later.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.peterdijkgraaf.com/images/blog/brainstorm-blog-peter-dijkgraaf.jpeg&quot; alt=&quot;&quot; /&gt;
+A little brainstorm I did for Qiv.&lt;/p&gt;
+
+&lt;h2 id=&quot;interaction-design&quot;&gt;3. Interaction design&lt;/h2&gt;
+
+&lt;p&gt;Start with good ol” paper to work on different interaction designs. Only throw ideas on paper that are out of the box. Don’t stick to the first idea that popped in your head, it’s not always the best one. Keep this &lt;a href=&quot;http://dribbble.com/shots/1458254-Hierarchy-of-UX-Needs&quot;&gt;hierarchy of functional design&lt;/a&gt; in mind. Think about the best ways to implement gestures and animations. Try to make it as intuitive as possible and stick close to gestures users are already used to.&lt;br /&gt;
+If an idea is more complex you might want to use something like &lt;a href=&quot;http://www.axure.com/&quot;&gt;Axure&lt;/a&gt;. It’s an easy to use tool to make your wireframes digital. You can create clickable prototypes of your designs with &lt;a href=&quot;https://www.flinto.com/&quot;&gt;Flinto&lt;/a&gt; or &lt;a href=&quot;https://popapp.in/&quot;&gt;POP&lt;/a&gt;.&lt;br /&gt;
+Test your prototypes with your mother and other potential users. With Qiv I started testing with prototypes after my my first visual designs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.peterdijkgraaf.com/images/blog/sketches1-blog-peter-dijkgraaf.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple of quick mockups I sketched together to get the idea out of my head before diving into Sketch3&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.peterdijkgraaf.com/images/blog/sketches2-blog-peter-dijkgraaf.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-design&quot;&gt;4. Visual design&lt;/h2&gt;
+
+&lt;p&gt;Decide what the face is going to be of your product. Visual identity is a very important thing that should set your product apart. Again, keep your audience in mind and design everything with reason and not necessarily your personal taste. Remember you’re never the user and make sure your visual designs won’t make the interactions suffer.&lt;br /&gt;
+Remember design isn’t about how it looks, it’s about how it works.&lt;br /&gt;
+Also be careful with design trends. Things like &lt;a href=&quot;http://dribbble.com/shots/1143775-Trendy-App-Icon-FLAT-LONG-SHADOW?list=searches&amp;amp;tag=long_shadow&amp;amp;offset=62&quot;&gt;long shadows&lt;/a&gt; are, almost never, timeless. Just use your brain and try to create something that will work in the long run.&lt;br /&gt;
+Also make sure to involve the developer(s) during the design process and the designs you create are implementable. Sometimes there are implementation issues and it can save a lot of time to go with idea y, instead of x.&lt;br /&gt;
+I’ve used Sketch for the first time on an entire project. It was a great chance to get familiar with it and I frikkin” love it for interface design. Since all the designs on my day job are in PS, it was an amazing learning experience to use Sketch on an entire project. Bohemian coding just launched &lt;a href=&quot;http://bohemiancoding.com/sketch&quot;&gt;Sketch 3&lt;/a&gt;. Give it a try cause it works like a charm! Here is a &lt;a href=&quot;https://medium.com/p/4b92d8b25f3&quot;&gt;nice overview&lt;/a&gt; of all it’s new features written by Jean-Marc Denis&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.peterdijkgraaf.com/images/blog/qiv-visual-design-blog-peter-dijkgraaf.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;5. Implementation.&lt;/h2&gt;
+
+&lt;p&gt;Once you have a steady visual identity, the developer can finally start breathing life into the idea. Usually he or she can start developing if you start the visual design. Deliver decent assets and design specs. Leave nothing to chance. Challenge the developer by creating that nifty animation which will give your app just that extra little bit of character.&lt;/p&gt;
+
+&lt;h2 id=&quot;iterate&quot;&gt;6. Iterate&lt;/h2&gt;
+
+&lt;p&gt;Keep in mind that a product is never finished. Implementing feedback, new features, that little typography change. Potential things that we’re gonna do with Qiv is creating a web app and a proper backend. These are future plans and it’ll also depend on how successful the iOS app is going to be. It’s good to have a vision and some kind of roadmap/backlog to see where you’re going.&lt;/p&gt;
+
+&lt;h2 id=&quot;seek-diversity&quot;&gt;7. Seek diversity&lt;/h2&gt;
+
+&lt;p&gt;Every time I got bored or stuck with something I was working on, I started to work on the name, logo or landing page. Whenever you have the feeling you’re stuck in a task; simply stop doing it and focus on something else. The solution will present itself in time but it’s a waste of time to stare at your screen and wait for it. Clear your head and go for a bike ride. Drinking beer with some friends will also help.&lt;/p&gt;
+
+&lt;h2 id=&quot;inspiration-finds-you-usually-when-youre-taking-a-dump&quot;&gt;8. Inspiration finds you. (usually when you’re taking a dump)&lt;/h2&gt;
+
+&lt;p&gt;So always be ready to write ideas down. They’ll come out of the blue so be sure to write them down instantly. They’ll be gone as quick as they popped in your head! I use &lt;a href=&quot;http://getthinglist.com/&quot;&gt;Thinglist&lt;/a&gt; to write all my random ideas, notes and thought down. It’s easy to keep track of everything cause it’s nicely organized in different categories.&lt;/p&gt;
+
+&lt;h2 id=&quot;ask-opinions-and-actually-listen&quot;&gt;9. Ask opinions (and actually listen)&lt;/h2&gt;
+
+&lt;p&gt;Ideas from other people can be very enlightening. It’s important to ask people their opinion in the early stage of your product. Simply ask what they think of the idea and if they would use it. Show them designs and try not to convince them that it’s a ‘good’ idea. First listen to what they have to say, cause otherwise you’re gonna make it awkward and they won’t tell you what they really think. Keep a couple of things in mind while you listen/think about someone else’s opinion.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Have a clear vision of what you think your product is about&lt;/li&gt;
+  &lt;li&gt;Ask opinions&lt;/li&gt;
+  &lt;li&gt;Think about the opinions&lt;/li&gt;
+  &lt;li&gt;If a certain opinions return consistently you should definitely consider to listen to it…&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This sounds completely logical but it can be very confronting and I know out of experience that I don’t like to listen to someone who burns my idea down to the ground. But if 8 out of 10 people do exactly the same thing, I force myself back to the drawing board and start from scratch. It hurts, but I learned something from it. That’s what matters.&lt;/p&gt;
+
+&lt;p&gt;The amount of sketches and brainstorm are very minimal. In this case it was enough for me to get the idea out of my head and onto paper. It gets the creative juices flowing, brings energy and most important of all: I learn a lot and I’m building something.&lt;/p&gt;
+
+&lt;p&gt;Still, all feedback is welcome! From typography improvements, extra features, to different interaction design. Please shoot! I’m on this planet to become the best version of myself. I know for sure I can’t do that on my own. I would really appreciate it if you dropped some feedback here, on &lt;a href=&quot;https://news.ycombinator.com/item?id=8176910&quot;&gt;Hacker News&lt;/a&gt; or &lt;a href=&quot;https://www.designernews.co/stories/31036&quot;&gt;Designer News&lt;/a&gt;. It might not be implemented anymore but it are still amazing learning opportunities.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading and go build epic shit, even if you have to start from scratch again!&lt;/p&gt;
+
+&lt;p&gt;Thanks, &lt;a href=&quot;https://twitter.com/chielkunkels&quot;&gt;Chiel&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/jkloezeman&quot;&gt;Jeffrey&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hidden_color&quot;&gt;Hidde&lt;/a&gt; for checking this draft and correcting my shitty English.&lt;/p&gt;
+
+&lt;h4 id=&quot;stay-in-the-loop&quot;&gt;Stay in the loop:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/peterdijkgraaf&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dribbble.com/PeterDijkgraaf&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 Aug 2014 16:30:23 +0200</pubDate>
+        <link>http://www.peterdijkgraaf.com/2014/08/14/how-i-create-an-app-next-to-a-fulltime-job.html</link>
+        <guid isPermaLink="true">http://www.peterdijkgraaf.com/2014/08/14/how-i-create-an-app-next-to-a-fulltime-job.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>When your app idea launches by someone right before you&#39;re launching</title>
+        <description>&lt;h4 id=&quot;long-story-short&quot;&gt;Long story short:&lt;/h4&gt;
+&lt;p&gt;It depends on the situation and how well the competitor has executed it. In my scenario: You drop everything, go for a run and start working on the next thing.&lt;/p&gt;
+
+&lt;h4 id=&quot;short-story-a-tiny-bit-longer&quot;&gt;Short story a tiny bit longer:&lt;/h4&gt;
+
+&lt;p&gt;I had the idea of creating an app where you can keep track of all the things you lend and borrow. I broke down my design process in steps and &lt;a href=&quot;https://peterdijkgraaf.com/blog/how-i-create-an-app-next-to-a-fulltime-job.html&quot;&gt;blogged about it here&lt;/a&gt;. You can also see the designs there.&lt;/p&gt;
+
+&lt;p&gt;I saw room for this app idea cause the competition was minimal and poorly executed. I started designing and an iOS dev started working on it. All my design work was done. From landing page, design specs, exported assets to social media accounts. I finished designing and an iOS dev was done researching and about to start coding, to be finished in a month. Two weeks ago &lt;a href=&quot;https://itunes.apple.com/us/app/lendpal-borrow-lend-money/id894350470?mt=8&quot;&gt;an app&lt;/a&gt; launched which is doing exactly what I wanted to do and they’re doing it extremely well in my opinion. I called the dev and after a couple of curse words we decided to work on the next thing.&lt;/p&gt;
+
+&lt;p&gt;Obviously it depends on the quality of the competitor as well. If it’s simply crap or you know you have the budget to overrule them with marketing. Give it all you got and keep going! In this case the app is executed very well and to be fair maybe even better then my designs…&lt;/p&gt;
+
+&lt;p&gt;For me, one thing is clear: We’re dropping all the work and start with a clean drawing board. We’re now working an an new idea and I’m gonna tell all about it as soon I’ve got some designs to show you all.&lt;/p&gt;
+
+&lt;p&gt;Keep your head up and keep creating epic stuff.&lt;/p&gt;
+
+&lt;p&gt;Feedback is always appreciated!&lt;/p&gt;
+
+&lt;p&gt;I want to thank &lt;a href=&quot;https://github.com/henkvanderspek/&quot;&gt;Henk&lt;/a&gt;, THE iOS dev.&lt;/p&gt;
+
+&lt;h4 id=&quot;stay-in-the-loop&quot;&gt;Stay in the loop:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/peterdijkgraaf&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dribbble.com/PeterDijkgraaf&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 21 Jul 2014 16:30:23 +0200</pubDate>
+        <link>http://www.peterdijkgraaf.com/2014/07/21/When-your-app-idea-launches-by-someone-right-before-youre-launching.html</link>
+        <guid isPermaLink="true">http://www.peterdijkgraaf.com/2014/07/21/When-your-app-idea-launches-by-someone-right-before-youre-launching.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Airbnb stole my design</title>
+        <description>&lt;h2 id=&quot;airbnb-stole-my-design&quot;&gt;Airbnb stole my design.&lt;/h2&gt;
+
+&lt;p&gt;No of course they didn’t. But it caught your attentions so please sit trough this small post and help a designer who is looking for advice.&lt;/p&gt;
+
+&lt;p&gt;I was kind of shocked when I saw the new &lt;a href=&quot;https://itunes.apple.com/nl/app/airbnb/id401626263&quot;&gt;iOS7 update for Airbnb&lt;/a&gt;, which launched earlier this week.&lt;/p&gt;
+
+&lt;p&gt;This is why:&lt;/p&gt;
+
+&lt;p&gt;1) It looked frickin awesome.&lt;/p&gt;
+
+&lt;p&gt;2) it looked a lot like the design I’m working on at TravelBird. (A online travel agency based in Amsterdam.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.peterdijkgraaf.com/images/blog/TravelBird-vs-Airbnb-visual-design-blog-peter-dijkgraaf.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Left: TravelBird, right: Airbnb. (both are screenshots)
+(There will be small typography/alignment changes)&lt;/p&gt;
+
+&lt;p&gt;I’m flattered cause I bet there is an extremely talented team working on it and I’ve managed to produce something very similar on my own. But it also makes the design I’m working on less unique.&lt;/p&gt;
+
+&lt;p&gt;Though the menu and overall flow/interactions will be different in the TravelBird app I’m still kind of wondering if I should be doing a redesign or keep going down the same road.&lt;/p&gt;
+
+&lt;p&gt;Have you guys ever been in a similar situation? Or are capable of providing me with advice?&lt;/p&gt;
+
+&lt;p&gt;Please leave a reply here, &lt;a href=&quot;https://news.ycombinator.com/item?id=6734265&quot;&gt;Hacker News&lt;/a&gt;, &lt;a href=&quot;https://www.designernews.co/stories/10169-airbnb-stole-my-design&quot;&gt;DN&lt;/a&gt; or hit me up on twitter: &lt;a href=&quot;https://twitter.com/PeterDijkgraaf&quot;&gt;@PeterDijkgraaf&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Nov 2013 15:30:23 +0100</pubDate>
+        <link>http://www.peterdijkgraaf.com/2013/11/14/Airbnb-stole-my-design.html</link>
+        <guid isPermaLink="true">http://www.peterdijkgraaf.com/2013/11/14/Airbnb-stole-my-design.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

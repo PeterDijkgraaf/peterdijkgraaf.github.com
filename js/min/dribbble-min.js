@@ -1,0 +1,1 @@
+var dribbbleUsername="PeterDijkgraaf",html="";$.getJSON("http://api.dribbble.com/players/"+dribbbleUsername+"/shots?callback=?",function(t){var l=4;for(i=0;i<l;i++)html+="<li>",html+='<a href="'+t.shots[i].url+'">',html+='<img src="'+t.shots[i].image_url+'" alt="'+t.shots[i].title+'" />',html+="</a>",html+="</li>";$(".shots").html(html)});
