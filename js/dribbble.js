@@ -1,9 +1,5 @@
 /*
  * LOAD DRIBBBLE SHOTS
- *
- * This script uses Dribbble's API
- * to fetch the latest shots
- * from a specified Dribbble user
  */
  
 // What user are we using?
