@@ -9,7 +9,7 @@ var dribbbleUsername = 'PeterDijkgraaf';
 var html = '';
 
 // Load the shots via Dribbble's API
-$.getJSON("http://api.dribbble.com/players/"+ dribbbleUsername +"/shots?callback=?", function(data) {
+$.getJSON("http://api.dribbble.com/v1/users/"+ dribbbleUsername +"/shots?callback=?", function(data) {
     // Do something with the result here
     // how many shots we're displaying on the page
 		var numberOfShots = 4;
