@@ -584,13 +584,10 @@ p > a:hover:before {
   text-align: center;
   font-family: "Gentium Book Basic", serif;
   background-position: center center; }
-  @media only screen and (min-width: 4210px) {
-    .header_image {
-      background-position: center center; } }
   @media only screen and (min-width: 630px) {
     .header_image {
       min-height: 850px; } }
-  @media only screen and (max-width: 4210px) {
+  @media only screen and (max-width: 450px) {
     .header_image {
       background-position: -820px -90px; } }
 
