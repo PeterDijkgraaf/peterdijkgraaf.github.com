@@ -585,7 +585,9 @@ p > a:hover:before {
   font-family: "Gentium Book Basic", serif; }
   @media only screen and (min-width: 630px) {
     .header_image {
-      min-height: 850px;
+      min-height: 850px; } }
+  @media only screen and (min-width: 4210px) {
+    .header_image {
       background-position: -820px -90px; } }
 
 .header_image h1 {
