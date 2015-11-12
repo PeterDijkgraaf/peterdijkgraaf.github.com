@@ -508,6 +508,9 @@ p > a:hover:before {
   font-family: "Gentium Book Basic", serif;
   letter-spacing: 1px;
   position: relative; }
+  @media only screen and (max-width: 410px) {
+    .main_nav ul li a {
+      font-size: 18px; } }
 
 .normal_link {
   color: #333; }
