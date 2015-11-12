@@ -577,7 +577,6 @@ p > a:hover:before {
   -webkit-background-size: cover;
   background-size: cover;
   background-color: #9e9b9c;
-  min-height: 850px;
   -moz-box-shadow: inset 0px -140px 100px 0px white;
   box-shadow: inset 0px -140px 100px 0px white;
   color: #fff;
