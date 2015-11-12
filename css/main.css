@@ -571,7 +571,7 @@ p > a:hover:before {
   text-transform: capitalize; }
 
 .header_image {
-  background: url("../images/background.jpg") no-repeat center center fixed;
+  background: url("../images/background.jpg") no-repeat fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -582,7 +582,11 @@ p > a:hover:before {
   box-shadow: inset 0px -140px 100px 0px white;
   color: #fff;
   text-align: center;
-  font-family: "Gentium Book Basic", serif; }
+  font-family: "Gentium Book Basic", serif;
+  background-position: center center; }
+  @media only screen and (min-width: 4210px) {
+    .header_image {
+      background-position: center center; } }
   @media only screen and (min-width: 630px) {
     .header_image {
       min-height: 850px; } }
