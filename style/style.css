@@ -47,6 +47,15 @@ a{
   background: rgba(0, 0, 0, 0.3);
   border-bottom: 2px solid rgba(225, 225, 225, 0.9); 
 }
+.logo{
+  display: block;
+  background: url("../images/logo.png");
+  text-decoration: none;
+  width: 32px;
+  height: 62px;
+  margin: 40px auto;}
+
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 410px) {
   h1{
