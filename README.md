@@ -1,4 +1,4 @@
-The portfolio website of Peter Dijkgraaf.
+The portfolio website of Peter Dijkgraaf.<br />
 Build with Jekyll hosted on GitHub.
 
-<a href="www.peterdijkgraaf.com">www.peterdijkgraaf.com</a>
+<h3><a href="http://www.peterdijkgraaf.com">www.peterdijkgraaf.com</a></h3>
