@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio and Blog Peter Dijkgraaf - Visual Interaction Designer and coder from Holland.</title>
-    <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems trough digital solutions. Mainly true interaction, visual design and front-end code.</description>
+    <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems through digital solutions. My core skills are interaction, visual design and front-end code.</description>
     <link>http://www.peterdijkgraaf.com/</link>
     <atom:link href="http://www.peterdijkgraaf.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Dec 2015 11:03:44 +0100</pubDate>
-    <lastBuildDate>Tue, 01 Dec 2015 11:03:44 +0100</lastBuildDate>
+    <pubDate>Tue, 01 Dec 2015 12:51:53 +0100</pubDate>
+    <lastBuildDate>Tue, 01 Dec 2015 12:51:53 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,9 +28,9 @@
 
 &lt;p&gt;&lt;a href=&quot;https://dribbble.com/peterdijkgraaf&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Jan 2015 12:00:00 +0100</pubDate>
-        <link>http://www.peterdijkgraaf.com/2015/01/Dribbble-invite-give-away.html</link>
-        <guid isPermaLink="true">http://www.peterdijkgraaf.com/2015/01/Dribbble-invite-give-away.html</guid>
+        <pubDate>Tue, 01 Dec 2015 12:00:00 +0100</pubDate>
+        <link>http://www.peterdijkgraaf.com/2015/12/Dribbble-invite-give-away.html</link>
+        <guid isPermaLink="true">http://www.peterdijkgraaf.com/2015/12/Dribbble-invite-give-away.html</guid>
         
         
       </item>
