@@ -857,7 +857,7 @@ progress::-moz-progress-bar {
 
 .white_timeline {
   background-color: #fff;
-  margin: -51px 0 0 -5px;
+  margin: -50px 0 0 -5px;
   position: relative;
   display: none;
   padding: 5px 0 50px 0; }
