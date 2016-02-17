@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/animate.css">
 
-  	<link rel="canonical" href="http://www.peterdijkgraaf.com/blog_overview.html">
+  	<link rel="canonical" href="http://www.peterdijkgraaf.com/blog_overview">
   	<link rel="alternate" type="application/rss+xml" title="Portfolio and Blog Peter Dijkgraaf - Visual Interaction Designer and coder from Holland." href="http://www.peterdijkgraaf.com/feed.xml" />
   	
 	<!-- Favicon -->
@@ -72,6 +72,14 @@
 		
 	
 		<section class="container article">
+			<a href="/2016/02/How-to-approach-your-(design)-career.html">
+				<header><h2>How to approach your (design) career</h2></header>
+				<p class="published">Published: </p>
+					<p>I’m writing this blog from the backyard of my apartment in Sydney during my 2 months visit for work. I started working for frog design in Amsterdam at the end of 2014. Seven...</p>
+			</a>		
+		</section>
+	
+		<section class="container article">
 			<a href="/2015/12/Dribbble-invite-give-away.html">
 				<header><h2>Dribbble invite giveaway</h2></header>
 				<p class="published">Published: </p>
@@ -118,16 +126,41 @@
         </ul>
       </nav>
       
-      <p>Peter Dijkgraaf  &copy; 2015</p>
+      <p>Peter Dijkgraaf  &copy; 2016</p>
 
       <a href="/" class="logo_dark animated fadeIn"></a>
-    </section>
 
+   
+
+    </section> <!-- container -->
+
+<div  class="timeline animated fadeIn"></div>
+
+   <section class="white_timeline">
+        <ul>
+          <li><div class="close_timeline animated fadeIn"></div></li>
+          <li>Time travel to older versions of this site:</li>
+          <li><a href="/archived/2010-2012/index.html" target="_blank" class="timelinelink">2010</a></li>
+          <li><a href="/archived/2012-2014/index.html" target="_blank" class="timelinelink">2012</a></li>
+          <li><a href="/archived/2015-temporary/index.html" target="_blank" class="timelinelink">2015 (temporary)</a></li>
+          
+        </ul>
+      </section> <!-- timeline -->
   </footer>
+
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="/js/jribbble.min.js"></script>
+
+  <script type="text/javascript">
+    $(".timeline").on('click', function(){ 
+      $( ".white_timeline" ).fadeIn( "slow", function() { });
+    });
+    $(".close_timeline").on('click', function(){ 
+      $( ".white_timeline" ).fadeOut( "slow", function() { });
+    });
+  </script>
+  <!--<script src="/js/jribbble.min.js"></script> -->
   <script src="/js/dribbble.js"></script> 
   <!-- Main -->
   <script src="/js/scripts.js"></script>

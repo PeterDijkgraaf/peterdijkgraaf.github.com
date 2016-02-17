@@ -1,0 +1,281 @@
+
+body{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	font-family:Airplanes in the Night Sky;
+	src:url(images/Airplanes%20in%20the%20Night%20Sky.ttf);
+}
+img{
+	border:none;
+}
+h1{
+	font-family:Airplanes in the Night Sky;
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	font-size:36px;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:28px;
+	margin:0px;
+	padding:0px;
+}
+#top{
+	position:absolute;
+	margin-top:-140px;
+}
+.line{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:5px;
+	background:url(images/stripe.jpg) repeat-x;
+}
+.title{
+	position:relative;
+}
+.container{
+	width:900px;
+	margin:auto;
+}
+
+#wrapper .container{min-height:900px; padding-top:130px;}
+
+#header_menu{
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	height:117px;
+	width:100%;
+	background:url(images/header.png) repeat-x;
+	z-index:100;
+}
+#bluething{
+	position:absolute;
+	background:url(images/bluething.png);
+	width:202px;
+	height:77px;
+	margin-top:46px;
+	margin-left:-12px;
+	z-index:101;
+}
+#bluething h1{
+	margin-left:51px;
+	font-size:40px;
+}
+/*menu gedeelte*/
+#menu_wrapper{
+	float:right;
+}
+#menu_wrapper ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#menu_wrapper ul li{
+	float:right;
+	display:block;
+}
+#menu_wrapper ul li a{
+	color:#FFF;
+	text-decoration:none;
+	font-family:Myriad Pro, Verdana, Geneva, sans-serif;
+	font-size:27px;
+	display:block;
+	padding:20px 16px 3px 16px;
+	margin-top:23px;
+}
+#menu_wrapper ul li a:hover{
+	text-decoration:underline;
+}
+#menu_wrapper ul li a:active{
+	text-decoration:underline;
+}
+/*content gedeelten*/
+#wrapper{
+	padding-top:;
+	position:relative;
+	width:100%;
+	background:url(images/backgroundgrey.jpg) repeat;
+}
+/*Header */
+#header{
+	position:relative;
+	height:auto;
+}
+#header_peter{
+	margin-top:70px;
+}
+#text_header{
+	background:url(images/line.png) repeat-x;
+	width:912px;
+	height:50px;
+	margin-top:7px;
+	margin-left:6px;
+	padding-top:5px;
+}
+#text_header .blue{
+	color:#38a0bf;
+}
+#text_header .strong{
+	font-weight:800;
+}
+
+#text_header h2{
+	font-family:Myriad Pro, Verdana, Geneva, sans-serif;
+	font-size:61px;
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	font-weight:100;
+	color:#292929;
+}
+/*portfolio*/
+#portfolio{
+	position:relative;
+	background:url(images/backgroundblue.jpg) repeat;
+	height:auto;
+}
+.portfolioholder{
+	position:relative;
+	width:930px;
+	height:500px;
+	border-bottom:1px dotted #517079 ;
+	margin-left:-30px;
+}
+.item_holder{
+	margin-top:20px;
+	float:left;
+	width:280px;;
+	height:380px;
+	padding-left:30px;
+}
+.item_holder  p {
+	margin-top:20px;
+	color:#FFF;
+}
+.item_holder  a {
+	margin-top:20px;
+	color:#FFF;
+}
+.item{
+	width:280px;
+	height:175px;
+	background:url(images/portfolioholder.png) no-repeat;
+}
+.picture_holder{
+	padding-left:10px;
+	padding-top:11px;
+	overflow:hidden;
+	width:257px;
+	height:153px;
+}
+.picture_holder a{
+	border:none;
+}
+/*Over Mij */
+#over_mij{
+	position:relative;
+	margin:0px;
+	height:auto;
+
+}
+#overmij_a{
+	position:absolute;
+	margin-top:-130px;;
+}
+#over_mij h1{
+	color:#2a2a2a;
+	margin:0px;
+	padding:0px;
+}
+#text_holder{
+	
+	margin:0px;
+	padding:0px;
+	margin-top:25px;
+	position:absolute;
+	width:490px;
+	height:440px;
+}
+#text_holder p {
+	color:#2a2a2a;
+}
+#text_holder a {
+	color:#2a2a2a;
+}
+
+#image_holder{
+	margin-left:530px;
+	width:491px;
+	height:469px;
+}
+
+/*Contact*/
+#contact{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	background:url(images/backgroundblue.jpg)  repeat;
+	height:auto;
+}
+#form_text_holder{
+	width:540px;
+	height:100px;
+	float:left;
+	margin-top:25px;
+}
+#form_text_holder p{
+	color:#FFF;
+}
+
+
+#contactFormArea{
+	float:left;	
+	width:400px;
+	margin-top:20px;
+}
+#contactFormArea p{
+	color:#FFF;
+}
+
+.submit{
+	display:block;
+	width:100px;
+	height:30px;
+	padding-top:5px;
+	margin-top:5px;
+	text-align: center;
+	text-decoration: none;
+
+	background:url(images/buttonbackground.jpg) no-repeat;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	border:none;
+}
+
+#adres_holder{
+	float:right;
+	width:306px;
+	height:218px;
+	background:url(images/overmij.png) no-repeat;
+	margin-top:-142px;
+}
+#adres_text_holder{
+	margin-top:67px;
+	margin-right:17px;
+}
+#adres_text_holder p{
+	color:#2a2a2a;
+	text-align:right;
+	font-size:16px;
+}
+#adres_text_holder b{
+	color:#22809b;
+}

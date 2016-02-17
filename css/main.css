@@ -820,7 +820,7 @@ hr {
   z-index: 2000;
   top: 0;
   left: 0;
-  height: 3px;
+  height: 2px;
   -moz-transition-property: width;
   -o-transition-property: width;
   -webkit-transition-property: width;
@@ -832,3 +832,72 @@ hr {
 
 .pace-inactive {
   display: none; }
+
+progress {
+  position: fixed;
+  left: 0;
+  top: 2px;
+  width: 100%;
+  height: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  color: #3c91c2; }
+
+progress::-webkit-progress-bar {
+  background-color: transparent; }
+
+progress::-webkit-progress-value {
+  background-color: #3c91c2; }
+
+progress::-moz-progress-bar {
+  background-color: #3c91c2; }
+
+.white_timeline {
+  background-color: #fff;
+  margin: -48px 0 0 -5px;
+  position: relative;
+  display: none;
+  padding: 5px 0 50px 0; }
+  .white_timeline ul {
+    display: block; }
+    .white_timeline ul li {
+      float: left;
+      list-style: none;
+      margin: 0 20px 0 0; }
+      .white_timeline ul li a {
+        margin-right: 0; }
+
+.timeline {
+  display: block;
+  background: url("../images/timeline.png");
+  width: 24px;
+  height: 24px;
+  margin: -37px 0 0 35px;
+  cursor: pointer; }
+  @media only screen and (max-width: 760px) {
+    .timeline {
+      display: none; } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-moz-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .timeline {
+    background: url("../images/timeline@2x.png");
+    background-size: 24px 24px; } }
+.timeline:hover {
+  border-bottom: none; }
+
+.close_timeline {
+  display: block;
+  background: url("../images/timeline_close.png");
+  width: 24px;
+  height: 24px;
+  cursor: pointer; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-moz-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+  .close_timeline {
+    background: url("../images/timeline_close@2x.png");
+    background-size: 24px 24px; } }
+.close_timeline:hover {
+  border-bottom: none; }

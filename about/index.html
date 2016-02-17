@@ -104,16 +104,41 @@
         </ul>
       </nav>
       
-      <p>Peter Dijkgraaf  &copy; 2015</p>
+      <p>Peter Dijkgraaf  &copy; 2016</p>
 
       <a href="/" class="logo_dark animated fadeIn"></a>
-    </section>
 
+   
+
+    </section> <!-- container -->
+
+<div  class="timeline animated fadeIn"></div>
+
+   <section class="white_timeline">
+        <ul>
+          <li><div class="close_timeline animated fadeIn"></div></li>
+          <li>Time travel to older versions of this site:</li>
+          <li><a href="/archived/2010-2012/index.html" target="_blank" class="timelinelink">2010</a></li>
+          <li><a href="/archived/2012-2014/index.html" target="_blank" class="timelinelink">2012</a></li>
+          <li><a href="/archived/2015-temporary/index.html" target="_blank" class="timelinelink">2015 (temporary)</a></li>
+          
+        </ul>
+      </section> <!-- timeline -->
   </footer>
+
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="/js/jribbble.min.js"></script>
+
+  <script type="text/javascript">
+    $(".timeline").on('click', function(){ 
+      $( ".white_timeline" ).fadeIn( "slow", function() { });
+    });
+    $(".close_timeline").on('click', function(){ 
+      $( ".white_timeline" ).fadeOut( "slow", function() { });
+    });
+  </script>
+  <!--<script src="/js/jribbble.min.js"></script> -->
   <script src="/js/dribbble.js"></script> 
   <!-- Main -->
   <script src="/js/scripts.js"></script>
