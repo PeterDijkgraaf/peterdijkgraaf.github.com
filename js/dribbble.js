@@ -1,4 +1,4 @@
-$.jribbble.setToken('f180107c1ee6e7ad171f48e7776eb601f07a1de51926a41ad7418f30bdc9acb5');
+$.jribbble.setToken('0651f8a18ae64d457869aa486952cee1afc683da3d0c57ff4eeea8fb3657c7b7');
 
   $.jribbble.users('PeterDijkgraaf').shots({per_page: 4}).then(function(shots) {
     var html = [];
