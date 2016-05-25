@@ -1,5 +1,6 @@
 
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
 
 <head>
@@ -15,7 +16,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/animate.css">
 
-  	<link rel="canonical" href="http://www.peterdijkgraaf.com/photos">
+  	<link rel="canonical" href="http://www.peterdijkgraaf.com/photography">
   	<link rel="alternate" type="application/rss+xml" title="Portfolio and Blog Peter Dijkgraaf - Visual Interaction Designer and coder from Holland." href="http://www.peterdijkgraaf.com/feed.xml" />
   	
 	<!-- Favicon -->
@@ -49,12 +50,28 @@
 </head>
 <body>
 
-<a class="back_button" href="/blog.html"></a>
+  <body>
+
+    <!-- header -->
+  <header class="l-header">
+    <header class="header_image_photo">
+        <section class="container">
+        <!-- <a href="index.html" class="logo_white animated fadeIn"></a>
+        <nav class="main_nav clear thin animated fadeIn">
+          <ul>
+            <li><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#101;&#116;&#101;&#114;&#064;&#106;&#111;&#110;&#103;&#101;&#110;&#115;&#118;&#097;&#110;&#100;&#101;&#109;&#101;&#100;&#105;&#097;&#046;&#110;&#108;&#063;&#083;&#117;&#098;&#106;&#101;&#099;&#116;&#061;&#072;&#105;&#037;&#050;&#048;&#080;&#101;&#116;&#101;&#114;" target="_top">say hi</a></li>  
+            <li><a href="/" title="blog">About me</a></li>
+          </ul>
+        </nav>
+          <h1 class="headline animated fadeIn">These are my photos. Follow my Instagram if you're cool</h1> -->
+        </section>
+    </header><!-- /header -->
+  </header>
 
 
 
 	<!-- header -->
-	<header class="l-header post_header">
+	<header class="l-header photo_header">
 		<section class="container">
 			<h1>A collectoin of my photo's</h1>
 		</section>
@@ -65,10 +82,10 @@
 			<section class="container">
 			<p><div class="l-main">
 		
-		<section class="container article">
+		<section class="container article" id="instafeed">
 				
-					<h3>Hi there project</h3>
-					<img src="https://images.unsplash.com/photo-1445251836269-d158eaa028a6?fit=crop&fm=jpg&h=975&ixlib=rb-0.3.5&q=80&w=1650"/>
+					<p>Hi there project</p>
+					<!-- <img src="https://images.unsplash.com/photo-1445251836269-d158eaa028a6?fit=crop&fm=jpg&h=975&ixlib=rb-0.3.5&q=80&w=1650"/> -->
 		</section>
 
 
@@ -114,8 +131,18 @@
   </footer>
 
 
+
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6'
+    });
+    feed.run();
+</script>
+
 
   <script type="text/javascript">
     $(".timeline").on('click', function(){ 
@@ -129,6 +156,7 @@
   <script src="/js/dribbble.js"></script>
   <!-- Main -->
   <script src="/js/scripts.js"></script>
+  <script src="/js/instafeed.min.js"></script>
 
 </body>
 </html> 

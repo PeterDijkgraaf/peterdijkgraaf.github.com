@@ -197,8 +197,18 @@ It’s a matter of expectations. As long as you can keep up with the work that i
   </footer>
 
 
+
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6'
+    });
+    feed.run();
+</script>
+
 
   <script type="text/javascript">
     $(".timeline").on('click', function(){ 
@@ -212,6 +222,7 @@ It’s a matter of expectations. As long as you can keep up with the work that i
   <script src="/js/dribbble.js"></script>
   <!-- Main -->
   <script src="/js/scripts.js"></script>
+  <script src="/js/instafeed.min.js"></script>
 
 </body>
 </html> 

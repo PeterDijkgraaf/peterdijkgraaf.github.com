@@ -620,6 +620,28 @@ p > a:hover:before {
   padding: 20% 0 38% 0;
   margin: 0; }
 
+.header_image_photo {
+  background: url("../images/photography-header-Peter-Dijkgraaf.jpg") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-color: #9e9b9c;
+  min-height: 900px;
+  -moz-box-shadow: inset 0px -140px 100px 0px white;
+  box-shadow: inset 0px -140px 100px 0px white;
+  color: #fff;
+  text-align: center;
+  font-family: "Gentium Book Basic", serif; }
+
+.header_image_photo h1 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px; }
+
+.header_image_photo .headline {
+  padding: 20% 0 38% 0;
+  margin: 0; }
+
 .logo_white {
   display: block;
   background: url("../images/logo.png");
@@ -662,6 +684,16 @@ p > a:hover:before {
 
 @media only screen and (max-width: 410px) {
   .post_header h1 {
+    font-size: 28px; } }
+.photo_header {
+  margin-bottom: 30px; }
+
+.pohoto_header h1 {
+  margin: 50px 0;
+  font-size: 2.4em; }
+
+@media only screen and (max-width: 410px) {
+  .photo_header h1 {
     font-size: 28px; } }
 .published, .reading_time {
   font-size: 0.8em;
