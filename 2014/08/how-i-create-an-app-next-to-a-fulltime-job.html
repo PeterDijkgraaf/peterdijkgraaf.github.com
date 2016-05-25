@@ -46,6 +46,7 @@
   	ga('create', 'UA-29073908-1', 'auto');
   	ga('send', 'pageview');
 	</script>
+	
 </head>
 <body>
 <progress value="0"></progress>
@@ -195,6 +196,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 
       <nav class="footer_nav clear thin">
         <ul>
+          <li><a href="/photography.html" title="Photography"> Photos</a></li>
           <li><a href="/blog.html" title="Blog"> Blog</a></li>
           <li><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#101;&#116;&#101;&#114;&#064;&#106;&#111;&#110;&#103;&#101;&#110;&#115;&#118;&#097;&#110;&#100;&#101;&#109;&#101;&#100;&#105;&#097;&#046;&#110;&#108;&#063;&#083;&#117;&#098;&#106;&#101;&#099;&#116;&#061;&#072;&#105;&#037;&#050;&#048;&#080;&#101;&#116;&#101;&#114;" target="_top">Say hi</a></li>
         </ul>
@@ -226,14 +228,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6'
-    });
-    feed.run();
-</script>
+  
 
 
   <script type="text/javascript">
@@ -248,7 +243,30 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
   <script src="/js/dribbble.js"></script>
   <!-- Main -->
   <script src="/js/scripts.js"></script>
-  <script src="/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+  var feed = new Instafeed({
+    get: 'user',
+    userId: 94764,
+    accessToken: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6',
+    target: 'instagram',
+    resolution: 'standard_resolution',
+    after: function() {
+      var el = document.getElementById('instagram');
+      if (el.classList)
+        el.classList.add('show');
+      else
+        el.className += ' ' + 'show';
+    }
+    window.onload = function() {
+  feed.run();
+}
+});
+
+ </script>
+  <script type="text/javascript" src="/js/instafeed.min.js"></script>
+
+
+  
 
 </body>
 </html> 
