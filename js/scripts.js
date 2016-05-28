@@ -1,5 +1,6 @@
 // Scroll indicator on the blog
 window.onload = function() {
+  
   var winHeight = $(window).height(), 
       docHeight = $(document).height(),
       progressBar = $('progress'),
@@ -15,12 +16,13 @@ window.onload = function() {
   });
 
 // Time travel function in the footer
- $(".timeline").on('click', function(){ 
-      $( ".white_timeline" ).fadeIn( "slow", function() { });
-    });
-    $(".close_timeline").on('click', function(){ 
-      $( ".white_timeline" ).fadeOut( "slow", function() { });
-    });
+  $(".timeline").on('click', function(){ 
+    $( ".white_timeline" ).fadeIn( "slow", function() { });
+  });
+  
+  $(".close_timeline").on('click', function(){ 
+    $( ".white_timeline" ).fadeOut( "slow", function() { });
+  });
     
 
     //Dribbbleshot loader
@@ -35,36 +37,39 @@ window.onload = function() {
       html.push('<img src="' + shot.images.normal + '">');
       html.push('</a></li>');
     });
-    
+      
     $('.shots').html(html.join(''));
   });
 
 
-// Instagram intergration
+// 500px intergration
+  
+  $(function() {
+      _500px.init({
+          sdk_key: 'e5fa258c39349698c234ecb9815d5e12e8c20d86'   //replace with your 500px js sdk key
+      });
 
-// var feed = new Instafeed({
-//     get: 'user',
-//     userId: 94764,
-//     accessToken: '40f0d8f4a0724c389b1a5fa8f4ba3060',
-//     target: 'instagram',
-//     resolution: 'standard_resolution',
-//     after: function() {
-//       var el = document.getElementById('instagram');
-//       if (el.classList)
-//         el.classList.add('show');
-//       else
-//         el.className += ' ' + 'show';
-//     }
-// });
+      // Get my user id
+      _500px.api('/users', function(response) {
+          var me = "PeterDike";
+          var siteurl = "http://500px.com/photo/"
 
- var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6'
-    });
+          // Get my favorites
+          _500px.api('/photos', {
+              feature: 'user',
+              username: me,
+              image_size: 5,
+              total_items: 5000
+          }, function(response) {
+              if (response.data.photos.length == 0) {
+                  alert('Nothing found! Please refresh...');
+              } else {
+                  $.each(response.data.photos, function() {
+                      $('#grid').append('<article><p>' + this.name + '</p><a href="http://www.instagram.com/peter.dike" target="_blank"><img src="' + this.image_url + '"></a></article>');
+                  });
+              }
+          });
+      });
+  });
 
-window.onload = function() {
-
-  feed.run();
-};
 };

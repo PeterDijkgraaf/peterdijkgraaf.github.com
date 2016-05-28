@@ -1,4 +1,4 @@
-Portfolio of Peter Dijkgraaf.
+Portfolio of Peter Dike.
 Build with Jekyll, hosted on GitHub
 
-#www.peterdijkgraaf.com
+#www.peterdike.com
