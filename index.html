@@ -150,44 +150,16 @@
 
 
 
+  
+  <script src="js/scripts.js"></script>
+  <script src="js/jribbble.min.js"></script> 
+  <!-- <script src="js/dribbble.js"></script> -->
+  <script src="js/instafeed.min.js"></script>
+  <script src="js/scroll.min.js"></script>
+  
+  
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  
-
-
-  <script type="text/javascript">
-    $(".timeline").on('click', function(){ 
-      $( ".white_timeline" ).fadeIn( "slow", function() { });
-    });
-    $(".close_timeline").on('click', function(){ 
-      $( ".white_timeline" ).fadeOut( "slow", function() { });
-    });
-  </script>
-  <script src="/js/jribbble.min.js"></script> 
-  <script src="/js/dribbble.js"></script>
-  <!-- Main -->
-  <script src="/js/scripts.js"></script>
-    <script type="text/javascript">
-  var feed = new Instafeed({
-    get: 'user',
-    userId: 94764,
-    accessToken: '1d3bdd4b6f5c4ca7b97bf4d4f92e5af6',
-    target: 'instagram',
-    resolution: 'standard_resolution',
-    after: function() {
-      var el = document.getElementById('instagram');
-      if (el.classList)
-        el.classList.add('show');
-      else
-        el.className += ' ' + 'show';
-    }
-    window.onload = function() {
-  feed.run();
-}
-});
-
- </script>
-  <script type="text/javascript" src="/js/instafeed.min.js"></script>
 
 
   
