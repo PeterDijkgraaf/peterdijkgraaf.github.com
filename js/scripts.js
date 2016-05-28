@@ -1,5 +1,5 @@
 // Scroll indicator on the blog
-$(document).on('ready', function() {  
+window.onload = function() {
   var winHeight = $(window).height(), 
       docHeight = $(document).height(),
       progressBar = $('progress'),
@@ -39,7 +39,6 @@ $(document).on('ready', function() {
     $('.shots').html(html.join(''));
   });
 
-});
 
 // Instagram intergration
 
@@ -67,5 +66,5 @@ $(document).on('ready', function() {
 window.onload = function() {
 
   feed.run();
-
+};
 };
