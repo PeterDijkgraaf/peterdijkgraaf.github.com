@@ -518,6 +518,19 @@ p > a:hover:before {
 .thin {
   font-weight: 100; }
 
+.container-photo p {
+  max-width: 660px;
+  margin: 20px auto 140px auto; }
+.container-photo img {
+  width: 80% !important;
+  margin-left: 10%; }
+@media only screen and (max-width: 820px) {
+  .container-photo p {
+    margin: 20px 10px 140px 20px; }
+  .container-photo img {
+    width: 100% !important;
+    margin: 0; } }
+
 .container {
   max-width: 660px;
   margin: 0 auto;
