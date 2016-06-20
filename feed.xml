@@ -5,9 +5,125 @@
     <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems through digital solutions. My core skills are interaction, visual design and front-end code.</description>
     <link>http://www.peterdike.com/</link>
     <atom:link href="http://www.peterdike.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 May 2016 15:00:58 +1000</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 15:00:58 +1000</lastBuildDate>
+    <pubDate>Mon, 20 Jun 2016 16:19:42 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 16:19:42 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Let&#39;s talk accessibility</title>
+        <description>&lt;p&gt;Not a sexy topic but it’s an elephant in the room we often prefer to ignore as designers.
+Working at frog design we often work for clients with a massive footprint and a diverse audience. Very often it’s a requirement that the designs we deliver are fully accessible.
+Not only because it’s best practice but because there are legal requirements. 
+It is a serious thread for a company to get sued because their products are not following accessibility guidelines.
+Having your client sued for work you’ve done is not something I strive for. ;)
+So let’s try to prevent this from happening.&lt;/p&gt;
+
+&lt;p&gt;I’ve distilled my experiences regarding accessibility in a couple of insights, best practices and helpful tools. I hope this blog will help you to apply accessibility in the beginning of the design process.&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson-one&quot;&gt;Lesson one&lt;/h2&gt;
+&lt;p&gt;It’s not hard at all as long as you keep it in mind from the start. &lt;/p&gt;
+
+&lt;h2 id=&quot;audience&quot;&gt;Audience&lt;/h2&gt;
+&lt;p&gt;Accessibility affect 19% of the population in the US. (Which has a relatively low disabled rate compared to developing countries.)
+Of that 19%, 54% uses the internet regularly. That’s around 10% of the population. I got these insights from &lt;a href=&quot;https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it&quot;&gt;this podcast&lt;/a&gt;. I highly recommend it. It’s a great listen.&lt;/p&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+&lt;p&gt;So disabled users are able to better see, hear, use and understand the products we are building. &lt;/p&gt;
+
+&lt;h2 id=&quot;accessibility-broken-down&quot;&gt;Accessibility broken down.&lt;/h2&gt;
+&lt;p&gt;My colleague Jeff Weir explained accessibility to me in a brilliant way.&lt;/p&gt;
+
+&lt;p&gt;Support and empathy for accessibility can also be created by framing it in terms of:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Problem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Solution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Unexpected gains&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Completely unexpected tangents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s apply this to the physical world. Let’s take curbs as an example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Problem:&lt;/strong&gt;
+Impassibility for wheelchair users:
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-problem.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Solution: &lt;/strong&gt;
+Curb cuts. Curbs are now passable for wheelchair users:
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-solution.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Unexpected gains: &lt;/strong&gt;
+Ease of use for other wheeled users like strollers, delivery carts, and bikes. Even walking is more pleasant.
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-unexpected-gains.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Completely unexpected tangents:&lt;/strong&gt;
+Curb cuts as launch ramps for skateboarding. Back in high school, my friends and I would hang out at particular curbs because they were such good ramps. Unexpectedly, designing for accessibility resulted in social spaces (or loitering depending on your perspective).
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-completely-unexpected-tangens.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;
+Everyone benefits from accessible design in unexpected ways.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-apply-it-in-our-digital-work&quot;&gt;How to apply it in our digital work? &lt;/h2&gt;
+&lt;p&gt;**Make links more descriptive. **
+A screen reader becomes useless when it’s just saying “read more” whenever it’s reading the links. Making this more descriptive will also have positive effects on your SEO results.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High contrast colours.&lt;/strong&gt;
+I’ve worked for multiple clients where we had to follow level AA accessibility standards which means a contrast of 4.5:1 for normal text and 3:1 for large text (14 point and bold or larger, or 18 point or larger). You can use this website to check the accessibility of colours. &lt;/p&gt;
+
+&lt;p&gt;I’ve had experiences in the past where accessibility was checked by somebody who was specifically hired to do this. Everything we designed that didn’t follow these standards came back to us and had to be redone. &lt;/p&gt;
+
+&lt;p&gt;In some cases even the main brand colours of the palette are not fully accessible. This can drastically limited your ability to use certain colours. 
+We often make an overview like this to keep an overview of which colours we are able to use in combination with each other or with different type sizes. &lt;/p&gt;
+
+&lt;p&gt;At the same time the link colour of Apple.com doesn’t pass the test and also the main brand colour of Airbnb doesn’t succeed. Obviously both these companies don’t seem to suffer from it… 
+So where do we draw the line as designers? 
+One way would be the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design in monochrome and for colourblind people.&lt;/strong&gt;
+The Mac app Sim Daltonism makes this really easy. Obviously you don’t leave this on the entire time but it’s interesting to check every now and then while you’re designing. Especially early on in the process. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Include alt tags in images.&lt;/strong&gt;
+This is more technical but it will make sure screen readers will have a description for the image. This again also helps your SEO.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use tab and arrow keys to navigate through interactive elements.&lt;/strong&gt;
+Also more technical but a essential step when you are in the final stages of the process and you’re checking how your designs are implemented. &lt;/p&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.michelf.ca/projects/sim-daltonism/&quot;&gt;&lt;strong&gt;Sim Daltonism&lt;/strong&gt;&lt;/a&gt;
+Mac app to view different types of colourblindness or monochrome.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://khan.github.io/tota11y/&quot;&gt;&lt;strong&gt;Tota11y&lt;/strong&gt;&lt;/a&gt;
+A javascript plugin that points out on element level if it’s passing accessibility or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://snook.ca/technical/colour_contrast/colour.html#fg=33FF33,bg=333333&quot;&gt;&lt;strong&gt;Colour contrast checker&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/WCAG20/&quot;&gt;&lt;strong&gt;W3C accessibility guidelines:&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/WAI/ER/tools/&quot;&gt;&lt;strong&gt;W3C accessibility evaluation Tool list&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope this article was of any help. Feel free to shoot some feedback or ask me any questions.
+Some of the info above came from &lt;a href=&quot;https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it&quot;&gt;this&lt;/a&gt; awesome podcast. 
+I want to thank Antonello for pushing me to write this post.&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;/p&gt;
+
+&lt;p&gt;Peter Dike&lt;/p&gt;
+
+&lt;h4 id=&quot;stay-awesome-and-stay-in-the-loop&quot;&gt;Stay awesome and stay in the loop:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dribbble.com/peterdike&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.instagram.com/peter.dike&quot;&gt;Instagram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/peterdijkgraaf&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jun 2016 13:00:00 +0200</pubDate>
+        <link>http://www.peterdike.com/2016/06/Lets-talk-accessibility.html</link>
+        <guid isPermaLink="true">http://www.peterdike.com/2016/06/Lets-talk-accessibility.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to approach your (design) career</title>
@@ -19,7 +135,7 @@ How come that you are traveling around the world and do work that you love? How 
 
 &lt;p&gt;I’m gonna answer this question through 5 main points and elaborate on them one by one. This is still my personal experience so feedback is always appreciated!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://peterdike.com/images/blog/Sydney-skyline-Peter-Dijkgraaf.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://peterdike.com/images/blog/Sydney-skyline-Peter-d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;aim-rather-ambitious&quot;&gt;1. Aim rather ambitious&lt;/h2&gt;
 
@@ -74,7 +190,7 @@ It’s a matter of expectations. As long as you can keep up with the work that i
 
 &lt;p&gt;&lt;a href=&quot;https://dribbble.com/peterdike&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Feb 2016 22:00:00 +1100</pubDate>
+        <pubDate>Wed, 17 Feb 2016 12:00:00 +0100</pubDate>
         <link>http://www.peterdike.com/2016/02/How-to-approach-your-(design)-career.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2016/02/How-to-approach-your-(design)-career.html</guid>
         
@@ -100,7 +216,7 @@ It’s a matter of expectations. As long as you can keep up with the work that i
 
 &lt;p&gt;&lt;a href=&quot;https://dribbble.com/peterdike&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Dec 2015 22:00:00 +1100</pubDate>
+        <pubDate>Tue, 01 Dec 2015 12:00:00 +0100</pubDate>
         <link>http://www.peterdike.com/2015/12/Dribbble-invite-give-away.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2015/12/Dribbble-invite-give-away.html</guid>
         
@@ -198,7 +314,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 &lt;p&gt;&lt;a href=&quot;http://dribbble.com/PeterDike&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 15 Aug 2014 00:30:23 +1000</pubDate>
+        <pubDate>Thu, 14 Aug 2014 16:30:23 +0200</pubDate>
         <link>http://www.peterdike.com/2014/08/how-i-create-an-app-next-to-a-fulltime-job.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2014/08/how-i-create-an-app-next-to-a-fulltime-job.html</guid>
         
@@ -212,7 +328,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 
 &lt;h4 id=&quot;short-story-a-tiny-bit-longer&quot;&gt;Short story a tiny bit longer:&lt;/h4&gt;
 
-&lt;p&gt;I had the idea of creating an app where you can keep track of all the things you lend and borrow. I broke down my design process in steps and &lt;a href=&quot;https://peterdijkgraaf.com/blog/how-i-create-an-app-next-to-a-fulltime-job.html&quot;&gt;blogged about it here&lt;/a&gt;. You can also see the designs there.&lt;/p&gt;
+&lt;p&gt;I had the idea of creating an app where you can keep track of all the things you lend and borrow. I broke down my design process in steps and &lt;a href=&quot;https://peterdike.com/blog/how-i-create-an-app-next-to-a-fulltime-job.html&quot;&gt;blogged about it here&lt;/a&gt;. You can also see the designs there.&lt;/p&gt;
 
 &lt;p&gt;I saw room for this app idea cause the competition was minimal and poorly executed. I started designing and an iOS dev started working on it. All my design work was done. From landing page, design specs, exported assets to social media accounts. I finished designing and an iOS dev was done researching and about to start coding, to be finished in a month. Two weeks ago &lt;a href=&quot;https://itunes.apple.com/us/app/lendpal-borrow-lend-money/id894350470?mt=8&quot;&gt;an app&lt;/a&gt; launched which is doing exactly what I wanted to do and they’re doing it extremely well in my opinion. I called the dev and after a couple of curse words we decided to work on the next thing.&lt;/p&gt;
 
@@ -233,7 +349,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 &lt;p&gt;&lt;a href=&quot;http://dribbble.com/PeterDike&quot;&gt;Dribbble&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 22 Jul 2014 00:30:23 +1000</pubDate>
+        <pubDate>Mon, 21 Jul 2014 16:30:23 +0200</pubDate>
         <link>http://www.peterdike.com/2014/07/When-your-app-idea-launches-by-someone-right-before-youre-launching.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2014/07/When-your-app-idea-launches-by-someone-right-before-youre-launching.html</guid>
         
@@ -265,7 +381,7 @@ I’ve used Sketch for the first time on an entire project. It was a great chanc
 
 &lt;p&gt;Please leave a reply here, &lt;a href=&quot;https://news.ycombinator.com/item?id=6734265&quot;&gt;Hacker News&lt;/a&gt;, &lt;a href=&quot;https://www.designernews.co/stories/10169-airbnb-stole-my-design&quot;&gt;DN&lt;/a&gt; or hit me up on twitter: &lt;a href=&quot;https://twitter.com/PeterDijkgraaf&quot;&gt;@PeterDijkgraaf&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Nov 2013 01:30:23 +1100</pubDate>
+        <pubDate>Thu, 14 Nov 2013 15:30:23 +0100</pubDate>
         <link>http://www.peterdike.com/2013/11/Airbnb-stole-my-design.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2013/11/Airbnb-stole-my-design.html</guid>
         

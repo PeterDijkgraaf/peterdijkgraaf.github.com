@@ -95,7 +95,7 @@ abbr[title] {
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: 700; }
 
 /**
  * Address styling not present in Safari and Chrome.

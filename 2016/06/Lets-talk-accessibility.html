@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Let's talk accessibility</title>
+ <meta name="description" content="Not a sexy topic but it’s an elephant in the room we often prefer to ignore as designers.Working at frog design we often work for clients with a massive foot...">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/animate.css">
+
+  	<link rel="canonical" href="http://www.peterdike.com/2016/06/Lets-talk-accessibility.html">
+  	<link rel="alternate" type="application/rss+xml" title="Portfolio and Blog Peter Dijkgraaf - Visual Interaction Designer and coder from Holland." href="http://www.peterdike.com/feed.xml" />
+  	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+	<!-- For third-generation iPad with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<!-- For iPhone with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="apple-touch-icon-114x114-precomposed.png">
+	<!-- For first- and second-generation iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="apple-touch-icon-72x72-precomposed.png">
+	<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<link rel="apple-touch-icon-precomposed" href="apple-touch- icon-precomposed.png">
+
+	<!-- Google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-29073908-1', 'auto');
+  	ga('send', 'pageview');
+	</script>
+
+</head>
+<body>
+	<!-- HAH! Got ya. You can check out my code on github: www.github.com/peterdike -->
+<progress value="0"></progress>
+
+<a class="back_button" href="/blog.html"></a>
+
+
+
+	<!-- header -->
+	<header class="l-header post_header">
+		<section class="container">
+			<h1>Let's talk accessibility</h1>
+
+			<p class="reading_time">Reading time: 5 min</p>
+			<p class="published">Published: 20-06-2016</p>
+		</section>
+	</header>
+	
+	<!-- Main -->
+		<div class="l-main post">
+			<section class="container main_article">
+			<p><p>Not a sexy topic but it’s an elephant in the room we often prefer to ignore as designers.
+Working at frog design we often work for clients with a massive footprint and a diverse audience. Very often it’s a requirement that the designs we deliver are fully accessible.
+Not only because it’s best practice but because there are legal requirements. 
+It is a serious thread for a company to get sued because their products are not following accessibility guidelines.
+Having your client sued for work you’ve done is not something I strive for. ;)
+So let’s try to prevent this from happening.</p>
+
+<p>I’ve distilled my experiences regarding accessibility in a couple of insights, best practices and helpful tools. I hope this blog will help you to apply accessibility in the beginning of the design process.</p>
+
+<h2 id="lesson-one">Lesson one</h2>
+<p>It’s not hard at all as long as you keep it in mind from the start. </p>
+
+<h2 id="audience">Audience</h2>
+<p>Accessibility affect 19% of the population in the US. (Which has a relatively low disabled rate compared to developing countries.)
+Of that 19%, 54% uses the internet regularly. That’s around 10% of the population. I got these insights from <a href="https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it">this podcast</a>. I highly recommend it. It’s a great listen.</p>
+
+<h2 id="why">Why</h2>
+<p>So disabled users are able to better see, hear, use and understand the products we are building. </p>
+
+<h2 id="accessibility-broken-down">Accessibility broken down.</h2>
+<p>My colleague Jeff Weir explained accessibility to me in a brilliant way.</p>
+
+<p>Support and empathy for accessibility can also be created by framing it in terms of:</p>
+
+<p><strong>1. Problem</strong></p>
+
+<p><strong>2. Solution</strong></p>
+
+<p><strong>3. Unexpected gains</strong></p>
+
+<p><strong>4. Completely unexpected tangents</strong></p>
+
+<p>Let’s apply this to the physical world. Let’s take curbs as an example.</p>
+
+<p><strong>1. Problem:</strong>
+Impassibility for wheelchair users:
+<img src="http://peterdike.com/images/blog/curb-problem.jpg" alt="" /></p>
+
+<p><strong>2. Solution: </strong>
+Curb cuts. Curbs are now passable for wheelchair users:
+<img src="http://peterdike.com/images/blog/curb-solution.jpg" alt="" /></p>
+
+<p><strong>3. Unexpected gains: </strong>
+Ease of use for other wheeled users like strollers, delivery carts, and bikes. Even walking is more pleasant.
+<img src="http://peterdike.com/images/blog/curb-unexpected-gains.jpg" alt="" /></p>
+
+<p><strong>4. Completely unexpected tangents:</strong>
+Curb cuts as launch ramps for skateboarding. Back in high school, my friends and I would hang out at particular curbs because they were such good ramps. Unexpectedly, designing for accessibility resulted in social spaces (or loitering depending on your perspective).
+<img src="http://peterdike.com/images/blog/curb-completely-unexpected-tangens.jpg" alt="" /></p>
+
+<p><strong>Conclusion:</strong>
+Everyone benefits from accessible design in unexpected ways.</p>
+
+<h2 id="how-to-apply-it-in-our-digital-work">How to apply it in our digital work? </h2>
+<p>**Make links more descriptive. **
+A screen reader becomes useless when it’s just saying “read more” whenever it’s reading the links. Making this more descriptive will also have positive effects on your SEO results.</p>
+
+<p><strong>High contrast colours.</strong>
+I’ve worked for multiple clients where we had to follow level AA accessibility standards which means a contrast of 4.5:1 for normal text and 3:1 for large text (14 point and bold or larger, or 18 point or larger). You can use this website to check the accessibility of colours. </p>
+
+<p>I’ve had experiences in the past where accessibility was checked by somebody who was specifically hired to do this. Everything we designed that didn’t follow these standards came back to us and had to be redone. </p>
+
+<p>In some cases even the main brand colours of the palette are not fully accessible. This can drastically limited your ability to use certain colours. 
+We often make an overview like this to keep an overview of which colours we are able to use in combination with each other or with different type sizes. </p>
+
+<p>At the same time the link colour of Apple.com doesn’t pass the test and also the main brand colour of Airbnb doesn’t succeed. Obviously both these companies don’t seem to suffer from it… 
+So where do we draw the line as designers? 
+One way would be the following:</p>
+
+<p><strong>Design in monochrome and for colourblind people.</strong>
+The Mac app Sim Daltonism makes this really easy. Obviously you don’t leave this on the entire time but it’s interesting to check every now and then while you’re designing. Especially early on in the process. </p>
+
+<p><strong>Include alt tags in images.</strong>
+This is more technical but it will make sure screen readers will have a description for the image. This again also helps your SEO.</p>
+
+<p><strong>Use tab and arrow keys to navigate through interactive elements.</strong>
+Also more technical but a essential step when you are in the final stages of the process and you’re checking how your designs are implemented. </p>
+
+<h2 id="tools">Tools</h2>
+<p><a href="http://www.michelf.ca/projects/sim-daltonism/"><strong>Sim Daltonism</strong></a>
+Mac app to view different types of colourblindness or monochrome.</p>
+
+<p><a href="http://khan.github.io/tota11y/"><strong>Tota11y</strong></a>
+A javascript plugin that points out on element level if it’s passing accessibility or not.</p>
+
+<p><a href="http://snook.ca/technical/colour_contrast/colour.html#fg=33FF33,bg=333333"><strong>Colour contrast checker</strong></a></p>
+
+<p><a href="https://www.w3.org/TR/WCAG20/"><strong>W3C accessibility guidelines:</strong></a></p>
+
+<p><a href="https://www.w3.org/WAI/ER/tools/"><strong>W3C accessibility evaluation Tool list</strong></a></p>
+
+<p>I hope this article was of any help. Feel free to shoot some feedback or ask me any questions.
+Some of the info above came from <a href="https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it">this</a> awesome podcast. 
+I want to thank Antonello for pushing me to write this post.</p>
+
+<p>Cheers,</p>
+
+<p>Peter Dike</p>
+
+<h4 id="stay-awesome-and-stay-in-the-loop">Stay awesome and stay in the loop:</h4>
+
+<p><a href="https://dribbble.com/peterdike">Dribbble</a></p>
+
+<p><a href="http://www.instagram.com/peter.dike">Instagram</a></p>
+
+<p><a href="https://twitter.com/peterdijkgraaf">Twitter</a></p>
+</p>
+
+			</section>
+			
+			
+			<section class="sepperatior">&nbsp;</section>
+
+
+			
+				
+			
+				
+				<section class="container article">
+					<a href="/2016/02/How-to-approach-your-(design)-career.html" alt="How to approach your (design) career" title="How to approach your (design) career">
+						<header><h2>How to approach your (design) career</h2></header>
+							<p>I’m writing this blog from the backyard of my apartment in Sydney during my 5 months visit for work. I started working for frog design in Amsterdam at the end of 2014. Seven... </p>
+						<p class="published">Published: 17-02-2016</p>
+					</a>		
+				</section>
+				
+			
+				
+				<section class="container article">
+					<a href="/2015/12/Dribbble-invite-give-away.html" alt="Dribbble invite giveaway" title="Dribbble invite giveaway">
+						<header><h2>Dribbble invite giveaway</h2></header>
+							<p>Quite recently I got 3 Dribbble invites from the lovely folks at Dribbble. Sharing is caring and I want to give it to the talented designers who deserve it. Let’s keep it simple:... </p>
+						<p class="published">Published: 01-12-2015</p>
+					</a>		
+				</section>
+				
+			
+			
+		</div><!-- l-main -->
+
+<!-- Footer -->
+  <footer class="l-footer">
+    <section class="container footer-container">
+
+      <nav class="footer_nav clear thin">
+        <ul>
+          <li><a href="/photography.html" title="Photography"> Photos</a></li>
+          <li><a href="/blog.html" title="Blog"> Blog</a></li>
+          <li><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#101;&#116;&#101;&#114;&#064;&#106;&#111;&#110;&#103;&#101;&#110;&#115;&#118;&#097;&#110;&#100;&#101;&#109;&#101;&#100;&#105;&#097;&#046;&#110;&#108;&#063;&#083;&#117;&#098;&#106;&#101;&#099;&#116;&#061;&#072;&#105;&#037;&#050;&#048;&#080;&#101;&#116;&#101;&#114;" target="_top">Say hi</a></li>
+        </ul>
+      </nav>
+      
+      <p>Peter &copy; 2016</p>
+
+      <a href="/" class="logo_dark animated fadeIn"></a>
+
+   
+
+    </section> <!-- container -->
+
+<div  class="timeline animated fadeIn"></div>
+
+   <section class="white_timeline">
+        <ul>
+          <li><div class="close_timeline animated fadeIn"></div></li>
+          <li>Time travel to older versions of this site:</li>
+          <li><a href="/archived/2010-2012/index.html" target="_blank" class="timelinelink">2010</a></li>
+          <li><a href="/archived/2012-2014/index.html" target="_blank" class="timelinelink">2012</a></li>
+          <li><a href="/archived/2015-temporary/index.html" target="_blank" class="timelinelink">2015 (temporary)</a></li>
+          
+        </ul>
+      </section> <!-- timeline -->
+  </footer>
+
+
+
+ <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
+  <script src="/js/scripts.js"></script>
+  <script src="/js/jribbble.min.js"></script> 
+  <script src="/js/500px.js"></script>
+  <script src="/js/scroll.min.js"></script>
+  
+  
+  
+
+  
+
+</body>
+</html> 

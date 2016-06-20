@@ -58,7 +58,7 @@ window.onload = function() {
           _500px.api('/photos', {
               feature: 'user',
               username: me,
-              image_size: 5,
+              image_size: 6,
               total_items: 5000
           }, function(response) {
               if (response.data.photos.length == 0) {
