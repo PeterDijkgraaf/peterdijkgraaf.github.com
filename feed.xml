@@ -5,30 +5,25 @@
     <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems through digital solutions. My core skills are interaction, visual design and front-end code.</description>
     <link>http://www.peterdike.com/</link>
     <atom:link href="http://www.peterdike.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Jun 2016 16:34:15 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Jun 2016 16:34:15 +0200</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 15:23:50 +0200</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 15:23:50 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
         <title>Let&#39;s talk accessibility</title>
-        <description>&lt;p&gt;Not a sexy topic but it’s an elephant in the room we often prefer to ignore as designers.
-Working at frog design we often work for clients with a massive footprint and a diverse audience. Very often it’s a requirement that the designs we deliver are fully accessible.
-Not only because it’s best practice but because there are legal requirements. 
-It is a serious thread for a company to get sued because their products are not following accessibility guidelines.
-Having your client sued for work you’ve done is not something I strive for. ;)
-So let’s try to prevent this from happening.&lt;/p&gt;
+        <description>&lt;p&gt;Not the sexiest topic, but it’s an elephant in the room we often prefer to ignore as designers. Working at frog design we often work for clients with a massive footprint and a diverse audience; very often it’s a requirement that the designs we deliver are fully accessible.Not only because it’s best practice but because there are legal requirements and it’s a serious threat for our clients getting sued because their products are not following accessibility guidelines. Having your client sued for work you’ve done is not something I strive for ;) So let’s try to prevent this from happening.&lt;/p&gt;
 
-&lt;p&gt;I’ve distilled my experiences regarding accessibility in a couple of insights, best practices and helpful tools. I hope this blog will help you to apply accessibility in the beginning of the design process.&lt;/p&gt;
+&lt;p&gt;I’ve distilled my experiences regarding accessibility in a couple of insights, best practices and helpful tools. The aim of this article is to help you apply accessibility in the beginning of your future design processes…&lt;/p&gt;
 
 &lt;h2 id=&quot;lesson-one&quot;&gt;Lesson one&lt;/h2&gt;
-&lt;p&gt;It’s not hard at all as long as you keep it in mind from the start. &lt;/p&gt;
+&lt;p&gt;It’s not hard. Keep accessibility in mind from the beginning of your design process.&lt;/p&gt;
 
 &lt;h2 id=&quot;audience&quot;&gt;Audience&lt;/h2&gt;
 &lt;p&gt;Accessibility affect 19% of the population in the US. (Which has a relatively low disabled rate compared to developing countries.)
 Of that 19%, 54% uses the internet regularly. That’s around 10% of the population. I got these insights from &lt;a href=&quot;https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it&quot;&gt;this podcast&lt;/a&gt;. I highly recommend it. It’s a great listen.&lt;/p&gt;
 
 &lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
-&lt;p&gt;So disabled users are able to better see, hear, use and understand the products we are building. &lt;/p&gt;
+&lt;p&gt;We should design experiences and products so users requiring greater accessibility are better able to see, hear, use and understand the products we are building.&lt;/p&gt;
 
 &lt;h2 id=&quot;accessibility-broken-down&quot;&gt;Accessibility broken down.&lt;/h2&gt;
 &lt;p&gt;My colleague Jeff Weir explained accessibility to me in a brilliant way.&lt;/p&gt;
@@ -47,25 +42,25 @@ Of that 19%, 54% uses the internet regularly. That’s around 10% of the populat
 
 &lt;p&gt;&lt;strong&gt;1. Problem:&lt;/strong&gt;
 Impassibility for wheelchair users:
-&lt;img src=&quot;http://peterdike.com/images/blog/curb-problem.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-problem.jpg&quot; alt=&quot;Impassibility for wheelchair users&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Solution: &lt;/strong&gt;
 Curb cuts. Curbs are now passable for wheelchair users:
-&lt;img src=&quot;http://peterdike.com/images/blog/curb-solution.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-solution.jpg&quot; alt=&quot;Curb cuts. Curbs are now passable for wheelchair users&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Unexpected gains: &lt;/strong&gt;
 Ease of use for other wheeled users like strollers, delivery carts, and bikes. Even walking is more pleasant.
-&lt;img src=&quot;http://peterdike.com/images/blog/curb-unexpected-gains.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-unexpected-gains.jpg&quot; alt=&quot;Ease of use for other wheeled users like strollers, delivery carts, and bikes. Even walking is more pleasant.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;4. Completely unexpected tangents:&lt;/strong&gt;
 Curb cuts as launch ramps for skateboarding. Back in high school, my friends and I would hang out at particular curbs because they were such good ramps. Unexpectedly, designing for accessibility resulted in social spaces (or loitering depending on your perspective).
-&lt;img src=&quot;http://peterdike.com/images/blog/curb-completely-unexpected-tangens.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://peterdike.com/images/blog/curb-completely-unexpected-tangens.jpg&quot; alt=&quot;Completely unexpected tangents&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;
 Everyone benefits from accessible design in unexpected ways.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-apply-it-in-our-digital-work&quot;&gt;How to apply it in our digital work? &lt;/h2&gt;
-&lt;p&gt;**Make links more descriptive. **
+&lt;p&gt;&lt;strong&gt;Make links more descriptive.&lt;/strong&gt;
 A screen reader becomes useless when it’s just saying “read more” whenever it’s reading the links. Making this more descriptive will also have positive effects on your SEO results.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;High contrast colours.&lt;/strong&gt;
@@ -73,8 +68,8 @@ I’ve worked for multiple clients where we had to follow level AA accessibility
 
 &lt;p&gt;I’ve had experiences in the past where accessibility was checked by somebody who was specifically hired to do this. Everything we designed that didn’t follow these standards came back to us and had to be redone. &lt;/p&gt;
 
-&lt;p&gt;In some cases even the main brand colours of the palette are not fully accessible. This can drastically limited your ability to use certain colours. 
-We often make an overview like this to keep an overview of which colours we are able to use in combination with each other or with different type sizes. &lt;/p&gt;
+&lt;p&gt;In some cases even the main brand colours of the palette are not fully accessible, this drastically limits your ability to use certain colours. 
+We often make an overview like this to keep line of sight to which colours we are able to use in combination with each other or with different type sizes. &lt;/p&gt;
 
 &lt;p&gt;At the same time the link colour of Apple.com doesn’t pass the test and also the main brand colour of Airbnb doesn’t succeed. Obviously both these companies don’t seem to suffer from it… 
 So where do we draw the line as designers? 
@@ -109,7 +104,7 @@ A javascript plugin that points out on element level if it’s passing accessibi
 
 &lt;p&gt;I hope this article was of any help. Feel free to shoot some feedback or ask me any questions.
 Some of the info above came from &lt;a href=&quot;https://soundcloud.com/ux-and-growth/why-accessibility-matters-how-to-design-for-it&quot;&gt;this&lt;/a&gt; awesome podcast. 
-I want to thank Antonello for pushing me to write this post.&lt;/p&gt;
+I thank &lt;a href=&quot;https://twitter.com/iltwosides&quot;&gt;Antonello&lt;/a&gt; for pushing me to write this post and &lt;a href=&quot;https://twitter.com/andrewvanhyfte&quot;&gt;Andrew&lt;/a&gt; for checking it on typos.&lt;/p&gt;
 
 &lt;p&gt;Cheers,&lt;/p&gt;
 
@@ -123,7 +118,7 @@ I want to thank Antonello for pushing me to write this post.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/peterdijkgraaf&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Jun 2016 13:00:00 +0200</pubDate>
+        <pubDate>Thu, 30 Jun 2016 13:00:00 +0200</pubDate>
         <link>http://www.peterdike.com/2016/06/Lets-talk-accessibility.html</link>
         <guid isPermaLink="true">http://www.peterdike.com/2016/06/Lets-talk-accessibility.html</guid>
         
