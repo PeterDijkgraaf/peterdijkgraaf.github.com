@@ -5,8 +5,8 @@
     <description>Portfolio and Blog Peter Dijkgraaf. Designer and creative thinker. I solve problems through digital solutions. My core skills are interaction, visual design and front-end code.</description>
     <link>http://www.peterdike.com/</link>
     <atom:link href="http://www.peterdike.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jun 2016 15:23:50 +0200</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2016 15:23:50 +0200</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 15:33:28 +0200</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 15:33:28 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -64,12 +64,12 @@ Everyone benefits from accessible design in unexpected ways.&lt;/p&gt;
 A screen reader becomes useless when it’s just saying “read more” whenever it’s reading the links. Making this more descriptive will also have positive effects on your SEO results.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;High contrast colours.&lt;/strong&gt;
-I’ve worked for multiple clients where we had to follow level AA accessibility standards which means a contrast of 4.5:1 for normal text and 3:1 for large text (14 point and bold or larger, or 18 point or larger). You can use this website to check the accessibility of colours. &lt;/p&gt;
+I’ve worked for multiple clients where we had to follow level AA accessibility standards which means a contrast of 4.5:1 for normal text and 3:1 for large text (14 point and bold or larger, or 18 point or larger). We go more into tools to check this further down in this post.&lt;/p&gt;
 
 &lt;p&gt;I’ve had experiences in the past where accessibility was checked by somebody who was specifically hired to do this. Everything we designed that didn’t follow these standards came back to us and had to be redone. &lt;/p&gt;
 
 &lt;p&gt;In some cases even the main brand colours of the palette are not fully accessible, this drastically limits your ability to use certain colours. 
-We often make an overview like this to keep line of sight to which colours we are able to use in combination with each other or with different type sizes. &lt;/p&gt;
+We often make an overview of the colour palette and highlight the accessibility rules. This is perfect to keep line of sight to which colours we are able to use in combination with each other or with which different type sizes accessibility keeps holding up.&lt;/p&gt;
 
 &lt;p&gt;At the same time the link colour of Apple.com doesn’t pass the test and also the main brand colour of Airbnb doesn’t succeed. Obviously both these companies don’t seem to suffer from it… 
 So where do we draw the line as designers? 
