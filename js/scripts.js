@@ -28,7 +28,7 @@ window.onload = function() {
     //Dribbbleshot loader
   $.jribbble.setToken('0651f8a18ae64d457869aa486952cee1afc683da3d0c57ff4eeea8fb3657c7b7');
 
-  $.jribbble.users('PeterDike').shots({per_page: 4}).then(function(shots) {
+  $.jribbble.users('PeterDijkgraaf').shots({per_page: 4}).then(function(shots) {
     var html = [];
     
     shots.forEach(function(shot) {
@@ -51,7 +51,7 @@ window.onload = function() {
 
       // Get my user id
       _500px.api('/users', function(response) {
-          var me = "PeterDike";
+          var me = "PeterDijkgraaf";
           var siteurl = "http://500px.com/photo/"
 
           // Get my favorites
