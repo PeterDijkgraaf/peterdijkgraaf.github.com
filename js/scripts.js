@@ -65,7 +65,7 @@ window.onload = function() {
                   alert('Nothing found! Please refresh...');
               } else {
                   $.each(response.data.photos, function() {
-                      $('#grid').append('<article><a href="http://www.instagram.com/peter.dike" target="_blank"><img src="' + this.image_url + '"></a><p>' + this.name + '</p></article>');
+                      $('#grid').append('<article><a href="http://www.instagram.com/peterdijkgraaf" target="_blank"><img src="' + this.image_url + '"></a><p>' + this.name + '</p></article>');
                   });
               }
           });
